@@ -1,0 +1,19 @@
+1. Zainstaluj pakiet pyftdi https://eblot.github.io/pyftdi/features.html
+za pomocą: pip3 install pyftdi
+
+2. Podłącz do gniazda USB płytke FT232 Waveshare
+
+3. Ustal adres URL podłaczonej płytki za pomocą: python3 url_.py
+
+4. ustalony adres wprowadź do pozostałych skryptów
+
+5. Uruchom Vivado w trybie Hrdwew Manager i załaduj do Zedboard dostarczony strumień bitowy top.bit
+
+6. podłacz na złcze JA płytke konwertyera FT232. UWAŻAJ na kolejnośc pinów zasilania!
+
+7. na zlacze JB podlacz Analog Discovery do obserwacji
+
+8. Uruchom skrypt uart.py aby sprawdzić czy komunikcaj między Zedboard a komp[uterem poprzez UART-USB działa poprawnie.
+
+9. Modifikuj skrypty by przetestować rózne zachowania projektu.
+
